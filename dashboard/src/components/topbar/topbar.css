@@ -1,0 +1,31 @@
+.navbar-icons{
+	position: relative;
+	align: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #a9a8a8;
+}
+
+
+.notification-badge{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	right: -10px;
+	top: -5px;
+}
+
+.topAvatar{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 20px
+}
