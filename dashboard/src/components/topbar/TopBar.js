@@ -4,6 +4,7 @@ import './topbar.css';
 export default function TopBar() {
 	const navbarStyle = {
 		'z-index': 999,
+		'position': 'relative',
 	};
 	return (
 		<>
