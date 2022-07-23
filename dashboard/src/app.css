@@ -1,0 +1,7 @@
+.PageContainer{
+	display: flex;
+}
+
+.OtherPages{
+	flex: 4;
+}
