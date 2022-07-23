@@ -1,7 +1,4 @@
 .PageContainer{
 	display: flex;
-}
-
-.OtherPages{
-	flex: 4;
+	margin-top: 20px;
 }
