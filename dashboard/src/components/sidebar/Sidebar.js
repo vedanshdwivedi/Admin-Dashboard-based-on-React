@@ -37,7 +37,7 @@ export default function Sidebar() {
 						</ul>
 						<h3 className="sidebarTitle">Notifications</h3>
 						<ul className="sidebarList">
-							<li className="sidebarListItem active">
+							<li className="sidebarListItem">
 								<i class="sidebarIcon fa-solid fa-at"></i> Mail
 							</li>
 							<li className="sidebarListItem">
