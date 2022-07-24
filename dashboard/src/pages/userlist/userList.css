@@ -1,0 +1,62 @@
+.users {
+	flex: 4;
+}
+
+.usernameImage {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	/* justify-content: center; */
+	display: cover;
+	margin-right: 5px;
+}
+
+.usernameName {
+	margin-left: 10px;
+}
+
+.statusCol {
+	font-weight: 600;
+	text-align: center;
+	border-radius: 10px;
+	width: 800px;
+	height: 25px;
+}
+
+.statusCol.active {
+	background-color: #3bb077;
+	color: white;
+}
+
+.statusCol.inactive {
+	background-color: #de8080;
+	color: #180000;
+}
+
+.userListEdit{
+	border: none;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background-color: #3bb077;
+	color: white;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.userListDelete{
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	padding: 5px 10px;
+	background-color: #de8080;
+	color: #180000;
+	cursor: pointer;
+}
+
+.userListEditIcon{
+	
+}
+
+.userListDeleteIcon{
+	
+}
