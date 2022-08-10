@@ -47,7 +47,72 @@ export default function User(prop) {
 							</div>
 						</div>
 					</div>
-					<div className="userUpdate">Update</div>
+					<div className="userUpdate">
+						<span className="userUpdateTitle">Edit</span>
+						<form className="userUpdateForm">
+							<div className="userUpdateLeft">
+								<div className="userUpdateItem">
+									<label>Username</label>
+									<input
+										type="text"
+										placeholder="vedanshdwivedi0"
+										className="userUpdateInput"
+									/>
+								</div>
+								<div className="userUpdateItem">
+									<label>Full Name</label>
+									<input
+										type="text"
+										placeholder="Vedansh Dwivedi"
+										className="userUpdateInput"
+									/>
+								</div>
+								<div className="userUpdateItem">
+									<label>Email</label>
+									<input
+										type="text"
+										placeholder="vedansh@gmail.com"
+										className="userUpdateInput"
+									/>
+								</div>
+								<div className="userUpdateItem">
+									<label>Phone</label>
+									<input
+										type="text"
+										placeholder="+91 82100 84655"
+										className="userUpdateInput"
+									/>
+								</div>
+								<div className="userUpdateItem">
+									<label>Address</label>
+									<input
+										type="text"
+										placeholder="Jamshedpur, Jharkhand"
+										className="userUpdateInput"
+									/>
+								</div>
+							</div>
+							<div className="userUpdateRight">
+								<div className="userUpdateUpload">
+									<img
+										className="userUpdateImage"
+										src="https://avatars.githubusercontent.com/u/25373561?v=4"
+										alt=""
+									/>
+									<label htmlFor="file">
+										<i class="fa-solid fa-upload userUpdateIcon"></i>
+									</label>
+									<input
+										type="file"
+										id="file"
+										className="userUpdate"
+										style={{ display: 'none' }}
+									/>
+								</div>
+								<button className="userUpdateButton">Update</button>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</>
